@@ -25,8 +25,17 @@
 .navigation-bar{
   display: flex;
   height: 100px;
+  width: 90%;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
+  border-width: 0 0 12px 0;
+  border-color: green;
+}
+.nav-branding{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 .nav-menu{
   display: flex;
@@ -72,15 +81,71 @@
 
   .nav-menu{
     position: fixed;
+    height: 200px;
     left: -100%;
     top: 100px;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #191919;
     width: 100%;
     transition: 0.3s;
+    z-index: 1;
   }
   .nav-menu.active{
     left: 0;
   }
 
+}
+/**************************************************
+  header-bar content
+**************************************************/
+.header-content{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.header-content picture{
+  width: 100%;
+}
+.header-content picture img{
+  width: 100%;
+  
+}
+.header-product{
+  position: absolute;
+  top: 0;
+  left: calc(calc(100% - 328px)/2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 328px;
+  margin: auto;
+}
+.header-product span{
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.header-product .item:nth-child(1){
+  font-size: 14px;
+  letter-spacing: 10px;
+  opacity: 0.5;
+}
+.header-product .item:nth-child(2){
+  font-size: 32px;
+  letter-spacing: 1.286px;
+}
+.header-product .item:nth-child(3){
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.75;
+}
+.header-product .item:nth-child(4){
+  width: 160px;
+  height: 48px;
+  background: #D87D4A;
+  align-items: center;
+  cursor: pointer;
 }
