@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.7df07dc5.css",
-    "main.js": "/ecommerce/static/js/main.1e4761d5.js",
+    "main.css": "/ecommerce/static/css/main.3f85012c.css",
+    "main.js": "/ecommerce/static/js/main.6d8e4dbd.js",
     "static/js/787.8093f5c1.chunk.js": "/ecommerce/static/js/787.8093f5c1.chunk.js",
     "static/media/image-header.jpg": "/ecommerce/static/media/image-header.d200a3583e72c7981f46.jpg",
+    "static/media/image-category-thumbnail-headphones.png": "/ecommerce/static/media/image-category-thumbnail-headphones.fbd401d9c735a217286f.png",
+    "static/media/image-category-thumbnail-speakers.png": "/ecommerce/static/media/image-category-thumbnail-speakers.bbb1a70b6ebc42d18df7.png",
+    "static/media/image-category-thumbnail-earphones.png": "/ecommerce/static/media/image-category-thumbnail-earphones.6e8830d475e04b7b9627.png",
     "static/media/image-hero.jpg": "/ecommerce/static/media/image-hero.55c18e980adf7658ae26.jpg",
     "static/media/logo.svg": "/ecommerce/static/media/logo.e03974f8eeb36e51813ca6f10681acdc.svg",
     "static/media/icon-cart.svg": "/ecommerce/static/media/icon-cart.5e1893a62995fc7b443abe7bee68063e.svg",
     "index.html": "/ecommerce/index.html",
-    "main.7df07dc5.css.map": "/ecommerce/static/css/main.7df07dc5.css.map",
-    "main.1e4761d5.js.map": "/ecommerce/static/js/main.1e4761d5.js.map",
+    "static/media/icon-arrow-right.svg": "/ecommerce/static/media/icon-arrow-right.357b9db81a798d76397efa2f4ad3409f.svg",
+    "main.3f85012c.css.map": "/ecommerce/static/css/main.3f85012c.css.map",
+    "main.6d8e4dbd.js.map": "/ecommerce/static/js/main.6d8e4dbd.js.map",
     "787.8093f5c1.chunk.js.map": "/ecommerce/static/js/787.8093f5c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df07dc5.css",
-    "static/js/main.1e4761d5.js"
+    "static/css/main.3f85012c.css",
+    "static/js/main.6d8e4dbd.js"
   ]
 }
