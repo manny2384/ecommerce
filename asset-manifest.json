@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.3f85012c.css",
-    "main.js": "/ecommerce/static/js/main.6d8e4dbd.js",
+    "main.css": "/ecommerce/static/css/main.b560f389.css",
+    "main.js": "/ecommerce/static/js/main.54bbd03e.js",
     "static/js/787.8093f5c1.chunk.js": "/ecommerce/static/js/787.8093f5c1.chunk.js",
     "static/media/image-header.jpg": "/ecommerce/static/media/image-header.d200a3583e72c7981f46.jpg",
     "static/media/image-category-thumbnail-headphones.png": "/ecommerce/static/media/image-category-thumbnail-headphones.fbd401d9c735a217286f.png",
@@ -9,15 +9,18 @@
     "static/media/image-category-thumbnail-earphones.png": "/ecommerce/static/media/image-category-thumbnail-earphones.6e8830d475e04b7b9627.png",
     "static/media/image-hero.jpg": "/ecommerce/static/media/image-hero.55c18e980adf7658ae26.jpg",
     "static/media/logo.svg": "/ecommerce/static/media/logo.e03974f8eeb36e51813ca6f10681acdc.svg",
+    "static/media/icon-instagram.svg": "/ecommerce/static/media/icon-instagram.8d0df55595e16bac2d486efccdc6b4b3.svg",
     "static/media/icon-cart.svg": "/ecommerce/static/media/icon-cart.5e1893a62995fc7b443abe7bee68063e.svg",
     "index.html": "/ecommerce/index.html",
+    "static/media/icon-twitter.svg": "/ecommerce/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
+    "static/media/icon-facebook.svg": "/ecommerce/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
     "static/media/icon-arrow-right.svg": "/ecommerce/static/media/icon-arrow-right.357b9db81a798d76397efa2f4ad3409f.svg",
-    "main.3f85012c.css.map": "/ecommerce/static/css/main.3f85012c.css.map",
-    "main.6d8e4dbd.js.map": "/ecommerce/static/js/main.6d8e4dbd.js.map",
+    "main.b560f389.css.map": "/ecommerce/static/css/main.b560f389.css.map",
+    "main.54bbd03e.js.map": "/ecommerce/static/js/main.54bbd03e.js.map",
     "787.8093f5c1.chunk.js.map": "/ecommerce/static/js/787.8093f5c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f85012c.css",
-    "static/js/main.6d8e4dbd.js"
+    "static/css/main.b560f389.css",
+    "static/js/main.54bbd03e.js"
   ]
 }
