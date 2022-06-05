@@ -24,12 +24,12 @@ function Footer(props){
         visit our demo facility - we’re open 7 days a week.
         </div>
         <div className='footer-tags'>
-        <div className="copyrights"> Copyright 2021. All Rights Reserved </div>
-        <div className="socialMedia">
-            <img src={facebook} alt="facebookicon" />
-            <img src={twitter} alt="twittericon" />
-            <img src={instagram} alt="instagramicon" />
-        </div>
+            <div className="copyrights"> Copyright 2021. All Rights Reserved </div>
+            <div className="socialMedia">
+                <img src={facebook} alt="facebookicon" />
+                <img src={twitter} alt="twittericon" />
+                <img src={instagram} alt="instagramicon" />
+            </div>
         </div>
     </div>)
 }

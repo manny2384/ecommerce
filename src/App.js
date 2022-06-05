@@ -5,6 +5,7 @@ import cart from './assets/shared/desktop/icon-cart.svg';
 
 // import components
 import Footer from './components/footer';
+import Beforefooter from './components/beforefooter';
 
 // images imported
 import hero from './assets/home/desktop/image-hero.jpg';
@@ -115,7 +116,7 @@ function App() {
 
       </div>
 
-
+      <Beforefooter />
       <Footer logo={logo} />
 
     </div>);
