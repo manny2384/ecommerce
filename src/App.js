@@ -6,6 +6,7 @@ import cart from './assets/shared/desktop/icon-cart.svg';
 // import components
 import Footer from './components/footer';
 import Beforefooter from './components/beforefooter';
+import HomeContent from './components/home-content';
 
 // images imported
 import hero from './assets/home/desktop/image-hero.jpg';
@@ -113,7 +114,7 @@ function App() {
       </div>
       
       <div className='placeholder'>
-
+      <HomeContent />
       </div>
 
       <Beforefooter />

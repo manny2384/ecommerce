@@ -268,10 +268,77 @@
   }
 }
 
+/**************************************************
+  placeholder
+**************************************************/
 .placeholder{
-  height: 700px;
+  margin-top: 120px;
   width: 100%;
 
+}
+
+/**************************************************
+home content
+**************************************************/
+.home-content{
+  height: 1420px;
+  width: 327px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.zx9{
+  height: 600px;
+}
+.zx7{
+  height: 320px;
+  width: 100%;
+  position: relative;
+}
+.zx7 div{
+  display: grid;
+  position: absolute;
+  height: 118px;
+  top: calc(calc(100% - 118px)/2);
+  left: 24px;
+}
+.yx1{
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.yx1 img{
+  width: 100%;
+  height: 200px;
+}
+.yx1 div:nth-child(2){
+  width: calc(100% - 24px);
+  padding-left: 24px;
+  height: 200px;
+  background: #F1F1F1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item-name{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+.home-content button{
+  width: 160px;
+  height: 48px;
+  border-radius: 0;
+  cursor: pointer;
+  background: inherit;
+  border: 1px solid black;
+}
+.home-content picture img{
+  width: 100%
 }
 
 /**************************************************
@@ -279,12 +346,11 @@
 **************************************************/
 .before-footer{
   width: 327px;
-  margin: auto;
+  height: 700px;
+  margin: 120px auto;
   font-family: 'Manrope';
   font-style: normal;
   text-align: center;
-  height: 700px;
-  margin-bottom: 120px;
   display: flex; 
   flex-direction: column;
 }
