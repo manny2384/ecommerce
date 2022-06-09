@@ -287,9 +287,61 @@ home content
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Monrope';
+  font-style: normal;
+}
+.home-content picture img{
+  width: 100%
+}
+.home-content div{
+  border-radius: 8px;
+}
+.home-content button{
+  width: 160px;
+  height: 48px;
+  border-radius: 0;
+  cursor: pointer;
+  background: inherit;
+  border: 1px solid black;
+  font-size: 13px;
 }
 .zx9{
   height: 600px;
+  background: #D87D4A;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.zx9 picture img{
+  width: 197px;
+  height: 237px;
+  border-radius: 8px;
+}
+.zx9 div{
+  width: 280px;
+  height: 303px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.zx9 div span:nth-child(1){
+  font-size: 36px;
+  letter-spacing: 1.28px;
+}
+.zx9 div span:nth-child(2){
+  font-size: 15px;
+  letter-spacing: 1.28px;
+  opacity: 0.75;
+}
+.zx9 button{
+  background: black;
+  color: white;
+  
 }
 .zx7{
   height: 320px;
@@ -302,6 +354,9 @@ home content
   height: 118px;
   top: calc(calc(100% - 118px)/2);
   left: 24px;
+}
+.zx7 picture img{
+  border-radius: 8px;
 }
 .yx1{
   height: 424px;
@@ -329,18 +384,57 @@ home content
   font-size: 28px;
   letter-spacing: 2px;
 }
-.home-content button{
-  width: 160px;
-  height: 48px;
-  border-radius: 0;
-  cursor: pointer;
-  background: inherit;
-  border: 1px solid black;
-}
-.home-content picture img{
-  width: 100%
-}
 
+@media(min-width: 700px){
+  .home-content{
+    width: 690px;
+  }
+  .zx9{
+    width: 690px;
+    height: 720px;
+  }
+  .yx1{
+    flex-direction: row;
+    height: auto;
+  }
+  .yx1 picture img{
+    width: 340px;
+    height: 100%;
+  }
+  .yx1 div:nth-child(2){
+    width: calc(100% - 340px);
+    height: 100%;
+  }
+}
+@media(min-width: 1120px){
+  .home-content{
+    width: 1110px;
+  }
+  .zx9{
+    width: 1110px;
+    height: 560px;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .zx9 picture{
+    height: 100%;
+    position: relative;
+  }
+  .zx9 picture img{
+    position: absolute;
+    bottom: -5px;
+  }
+  .yx1{
+    height: 320px;
+  }
+  .yx1 picture img{
+    width: 540px;
+    height: 320px;
+  }
+  .yx1 div:nth-child(2){
+    width: 540px;
+  }
+}
 /**************************************************
   before footer
 **************************************************/

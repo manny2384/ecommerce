@@ -13,17 +13,17 @@ import speakerzx9m from '../assets/home/mobile/image-speaker-zx9.png';
 function HomeContent(){
     return(<div className="home-content">
         <div className='zx9'>
+            <picture>
+                <source srcset={speakerzx9} media="(min-width: 1000px)" />
+                <source srcset={speakerzx9t} media="(min-width: 768px)" />
+                <img src={speakerzx9m} alt="speakerzx9" />    
+            </picture>    
             <div>
                 <span className='item-name'> ZX9 SPEAKER </span>
                 <span> Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
                 </span>
                 <button> See product </button>
             </div>
-            <picture>
-                <source srcset={speakerzx9} media="(min-width: 1000px)" />
-                <source srcset={speakerzx9t} media="(min-width: 768px)" />
-                <img src={speakerzx9m} alt="speakerzx9" />    
-            </picture>    
         </div>
         <div className='zx7'> 
             <div>
