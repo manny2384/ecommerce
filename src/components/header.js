@@ -6,12 +6,13 @@ import hero_mobile from '../assets/home/mobile/image-header.jpg';
 import logo from '../assets/shared/desktop/logo.svg';
 import cart from '../assets/shared/desktop/icon-cart.svg';
 
+
 function Header(props){
 
-    return(
-        <header className='header-bar'>
 
-        <nav className='navigation-bar'>
+    return(<header className='header-bar'>
+
+        <nav className='navigation-bar' >
 
           <div className='hamburger' onClick={(e)=>{
             document.querySelector(".hamburger").classList.toggle("active");
@@ -27,10 +28,10 @@ function Header(props){
           </div>
 
           <ul className='nav-menu'>
-            <li className='nav-item'> HOME </li>
-            <li className='nav-item'> HEADPHONES </li>
-            <li className='nav-item'> SPEAKERS </li>
-            <li className='nav-item'> EARPHONES </li>
+            <li className='nav-item' onClick={()=>props.setState('home')}> HOME </li>
+            <li className='nav-item' onClick={()=>props.setState('headphones')}> HEADPHONES </li>
+            <li className='nav-item' onClick={()=>props.setState('speakers')}> SPEAKERS </li>
+            <li className='nav-item' onClick={()=>props.setState('earphones')}> EARPHONES </li>
           </ul>
           
           <div className='cart-icon'>
@@ -57,8 +58,7 @@ function Header(props){
           </picture>
 
         </div>
-      </header>
-    )
+    </header>);
 }
 
 export default Header;
