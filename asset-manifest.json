@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.4d881c92.css",
-    "main.js": "/ecommerce/static/js/main.b59979cf.js",
+    "main.css": "/ecommerce/static/css/main.6f5c9983.css",
+    "main.js": "/ecommerce/static/js/main.b97f2487.js",
     "static/js/787.8093f5c1.chunk.js": "/ecommerce/static/js/787.8093f5c1.chunk.js",
     "static/media/image-speaker-zx9.png": "/ecommerce/static/media/image-speaker-zx9.97769f2fb291eaed1868.png",
     "static/media/image-best-gear.jpg": "/ecommerce/static/media/image-best-gear.4d4a28e9e7c9ab158dd8.jpg",
@@ -19,12 +19,12 @@
     "static/media/icon-twitter.svg": "/ecommerce/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
     "static/media/icon-facebook.svg": "/ecommerce/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
     "static/media/icon-arrow-right.svg": "/ecommerce/static/media/icon-arrow-right.357b9db81a798d76397efa2f4ad3409f.svg",
-    "main.4d881c92.css.map": "/ecommerce/static/css/main.4d881c92.css.map",
-    "main.b59979cf.js.map": "/ecommerce/static/js/main.b59979cf.js.map",
+    "main.6f5c9983.css.map": "/ecommerce/static/css/main.6f5c9983.css.map",
+    "main.b97f2487.js.map": "/ecommerce/static/js/main.b97f2487.js.map",
     "787.8093f5c1.chunk.js.map": "/ecommerce/static/js/787.8093f5c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d881c92.css",
-    "static/js/main.b59979cf.js"
+    "static/css/main.6f5c9983.css",
+    "static/js/main.b97f2487.js"
   ]
 }
