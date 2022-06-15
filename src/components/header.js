@@ -1,3 +1,5 @@
+// import React, {useState} from 'react';
+
 // images imported
 import hero from '../assets/home/desktop/image-hero.jpg';
 import hero_tablet from '../assets/home/tablet/image-header.jpg';
@@ -8,7 +10,6 @@ import cart from '../assets/shared/desktop/icon-cart.svg';
 
 
 function Header(props){
-
 
     return(<header className='header-bar'>
 
@@ -39,25 +40,30 @@ function Header(props){
           </div>
         </nav>
 
+        
         <div className='header-content'>
 
-          <div className='header-product'>
-            <span className='item'>NEW PRODUCT</span>
-            <span className='item'>XX99 MARK II HEADPHONES</span>
-            <span className='item header-prod-desc'>
-              Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
-            </span>
-            <span className='item see-prod-btn'>See product</span>
-   
-          </div>
-          
-          <picture>
-            <source srcset={hero} media="(min-width: 1000px)" />
-            <source srcset={hero_tablet} media="(min-width: 600px)" />
-            <img src={hero_mobile} alt="headphones" />
-          </picture>
+          {props.state === "home" && <>
+            <div className='header-product'>
+              <span className='item'>NEW PRODUCT</span>
+              <span className='item'>XX99 MARK II HEADPHONES</span>
+              <span className='item header-prod-desc'>
+                Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
+              </span>
+              <span className='item see-prod-btn'>See product</span>
+      
+            </div>
+            
+            <picture>
+              <source srcset={hero} media="(min-width: 1000px)" />
+              <source srcset={hero_tablet} media="(min-width: 600px)" />
+              <img src={hero_mobile} alt="headphones" />
+            </picture>
+          </>}
 
+          {props.state !== "home" && <div className='label-header'> {props.state} </div> }
         </div>
+
     </header>);
 }
 

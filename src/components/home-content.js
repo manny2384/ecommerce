@@ -9,6 +9,8 @@ import speakerzx9 from '../assets/home/desktop/image-speaker-zx9.png';
 import speakerzx9t from '../assets/home/tablet/image-speaker-zx9.png';
 import speakerzx9m from '../assets/home/mobile/image-speaker-zx9.png';
 
+// import helper components
+
 
 function HomeContent(){
     return(<div className="home-content">
@@ -22,13 +24,13 @@ function HomeContent(){
                 <span className='item-name'> ZX9 SPEAKER </span>
                 <span> Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
                 </span>
-                <button> See product </button>
+                <button> SEE PRODUCT </button>
             </div>
         </div>
         <div className='zx7'> 
             <div>
                 <span className='item-name'> ZX7 SPEAKER </span>
-                <button> See product </button>
+                <button> SEE PRODUCT </button>
             </div>
             <picture>
                 <source srcset={speakerzx7} media="(min-width: 1000px)" />
@@ -46,7 +48,7 @@ function HomeContent(){
             </div>
             <div>
                 <span className='item-name'> YX1 EARPHONES </span>
-                <button> See product </button>
+                <button> SEE PRODUCT </button>
             </div>
         </div>
     </div>)

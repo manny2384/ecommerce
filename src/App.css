@@ -108,6 +108,18 @@
   position: relative;
   background-color: #191919;
 }
+.label-header{
+  width: 100%;
+  height: 200px;
+  background: #000000;
+  color: white;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
 .header-content picture{
   width: 100%;
 }
@@ -592,5 +604,71 @@ home content
   }
   .footer-desc{
     width: 600px;
+  }
+}
+
+/**************************************************
+  Headphones/Speakers/Earphones Product Styling
+**************************************************/
+.headphones, .speakers, .earphones{
+  width: 327px;
+  margin: auto;
+}
+.headphones-prod, .speakers-prod, .earphones-prod{
+  display: flex;
+  flex-direction: column;
+}
+.headphones-prod .prod-description, 
+.speakers-prod .prod-description,
+.earphones-prod .prod-description{
+  width: 100%;
+  height: 352px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.headphones div picture img,
+.speakers div picture img,
+.earphones div picture img{
+  width: 100%;
+  height: 352px;
+}
+.prod-description button{
+  width: 160px;
+  height: 48px;
+  background: #D87D4A;
+  color: white;
+  margin: auto;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.prod-description button:active{
+  opacity: 0.8;
+}
+@media(min-width: 700px){
+  .headphones, .speakers, .earphones{
+    width: 690px;
+  }
+
+}
+
+@media(min-width: 1120px){
+  .headphones, .speakers, .earphones{
+    width: 1110px;
+  }
+  .headphones-prod, .speakers-prod, .earphones-prod{
+    flex-direction: row;
+  }
+  .headphones div picture img,
+  .speakers div picture img,
+  .earphones div picture img{
+    width: 540px;
+    height: 560px;
+  }
+  .headphones-prod .prod-description, 
+  .speakers-prod .prod-description,
+  .earphones-prod .prod-description{
+    width: 540px;
+    height: 560px;
   }
 }

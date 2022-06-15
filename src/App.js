@@ -8,20 +8,13 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Beforefooter from './components/beforefooter';
 import HomeContent from './components/home-content';
+import Group17 from './components/group17';
 
 // import seperate pages
 import Speakers from './components/speakers';
 import Earphones from './components/earphones';
 import Headphones from './components/headphones';
 
-
-// icons
-import arrowRight from './assets/shared/desktop/icon-arrow-right.svg';
-
-// featured products
-import headphones from './assets/shared/desktop/image-category-thumbnail-headphones.png';
-import earphones from './assets/shared/desktop/image-category-thumbnail-earphones.png';
-import speakers from './assets/shared/desktop/image-category-thumbnail-speakers.png';
 
 
 function App() {
@@ -35,43 +28,9 @@ function App() {
   return (
     <div className="App">
     
-      <Header setState={setState} />
+      <Header setState={setState} state={state} />
       
-      <div className='featured-products'>
-        <div className='item'>
-          <span>
-            <img src={headphones} alt="headphones" />
-          </span>
-          <span> Headphones </span>
-          <span>
-            Shop <img src={arrowRight} alt="arrowright" />
-          </span>
-          <span></span>
-        </div>
-        <div className='item'>
-          <span>
-            <img src={speakers} alt="speakers" />
-          </span>
-          <span> Speakers </span>
-          <span>
-            Shop <img src={arrowRight} alt="arrowright" />
-          </span>
-          <span></span>
-        </div>
-        <div className='item'>
-          <span>
-            <img src={earphones} alt="earphones" />
-          </span>
-          <span> Earphones </span>
-          <span>
-            Shop <img src={arrowRight} alt="arrowright" />
-          </span>
-          <span></span>
-        </div>
-
-
-
-      </div>
+      <Group17 />
       
       <div className='placeholder'>
 
