@@ -18,9 +18,9 @@ function Speakers(){
                 <img src={zx9m} alt="product" />
             </picture>
             <div className="prod-description" >
-                <span> NEW PRODUCT </span>
-                <span> ZX9 SPEAKER </span>
-                <span> Upgrade your sound system with the all new ZX9 active
+                <span style={{'color':'#D87D4A'}}> NEW PRODUCT </span>
+                <span style={{'font-size':'28px','letterSpacing':'1px'}}> ZX9 SPEAKER </span>
+                <span style={{'font-size':'15px', 'opacity':'0.5'}}> Upgrade your sound system with the all new ZX9 active
                     speaker. It’s a bookshelf speaker system that offers truly 
                     wireless connectivity -- creating new possibilities for more
                     pleasing and practical audio setups.</span>
@@ -35,8 +35,8 @@ function Speakers(){
                 <img src={zx7m} alt="product" />
             </picture>
             <div className="prod-description" >
-                <span> ZX7 SPEAKER </span>
-                <span> Stream high quality sound wirelessly with minimal loss. 
+                <span style={{'font-size':'28px','letterSpacing':'1px'}}> ZX7 SPEAKER </span>
+                <span style={{'font-size':'15px', 'opacity':'0.5'}}> Stream high quality sound wirelessly with minimal loss. 
                     The ZX7 bookshelf speaker uses high-end audiophile components 
                     that represents the top of the line powered speakers for home 
                     or studio use.</span>

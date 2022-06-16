@@ -12,6 +12,7 @@
 .App{
   height: 100%;
   width: 100%;
+  font-family: 'Monrope';
 }
 
 .header-bar{
@@ -192,7 +193,7 @@
 }
 
 /**************************************************
-  featured products
+  Group 17 / featured products
 **************************************************/
 .featured-products{
   color: black;
@@ -236,6 +237,7 @@
   width: 60px;
   left: calc(calc(100% - 60px)/2);
   text-align: center;
+  cursor: pointer;
 }
 .featured-products .item span:nth-child(4){
   width: 100%;
@@ -246,9 +248,7 @@
   bottom: 0;
   opacity: 0.5;
 }
-.featured-products .item span:nth-child(3) img{
-  cursor: pointer;
-}
+
 @media(min-width: 800px){
   .featured-products{
     flex-direction: row;
@@ -608,7 +608,7 @@ home content
 }
 
 /**************************************************
-  Headphones/Speakers/Earphones Product Styling
+  Headphones / Speakers / Earphones Product Styling
 **************************************************/
 .headphones, .speakers, .earphones{
   width: 327px;
@@ -649,6 +649,12 @@ home content
   .headphones, .speakers, .earphones{
     width: 690px;
   }
+  .headphones-prod .prod-description, 
+  .speakers-prod .prod-description,
+  .earphones-prod .prod-description{
+    width: 527px;
+    margin: auto;
+  }
 
 }
 
@@ -668,7 +674,8 @@ home content
   .headphones-prod .prod-description, 
   .speakers-prod .prod-description,
   .earphones-prod .prod-description{
-    width: 540px;
-    height: 560px;
+    width: 445px;
+    height: 308px;
   }
 }
+

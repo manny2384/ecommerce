@@ -30,7 +30,7 @@ function App() {
     
       <Header setState={setState} state={state} />
       
-      <Group17 />
+      <Group17 setState={setState} state={state} />
       
       <div className='placeholder'>
 

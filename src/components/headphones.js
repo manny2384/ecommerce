@@ -20,9 +20,9 @@ function Headphones(){
                 <img src={xx99twom} alt="product" />
             </picture>
             <div className="prod-description" >
-                <span> NEW PRODUCT </span>
-                <span> XX99 MARK II HEADPHONES </span>
-                <span> The new XX99 Mark II headphones is the pinnacle
+                <span style={{'color':'#D87D4A'}}> NEW PRODUCT </span>
+                <span style={{'font-size':'28px','letterSpacing':'1px'}}> XX99 MARK II HEADPHONES </span>
+                <span style={{'font-size':'15px', 'opacity':'0.5'}}> The new XX99 Mark II headphones is the pinnacle
                 of pristine audio. It redefines your premium headphone 
                 experience by reproducing the balanced depth and precision 
                 of studio-quality sound.</span>
@@ -36,8 +36,8 @@ function Headphones(){
                 <img src={xx99onem} alt="product" />
             </picture>
             <div className="prod-description" >
-                <span> XX99 </span>
-                <span> As the gold standard for headphones, the classic XX99 Mark I
+                <span style={{'font-size':'28px','letterSpacing':'1px'}}> XX99 </span>
+                <span style={{'font-size':'15px', 'opacity':'0.5'}}> As the gold standard for headphones, the classic XX99 Mark I
                 offers detailed and accurate audio reproduction for audiophiles, 
                 mixing engineers, and music aficionados alike in studios and on the go.</span>
                 <button> SEE PRODUCT </button>
@@ -50,8 +50,8 @@ function Headphones(){
                 <img src={xx59onem} alt="product" />
             </picture>
             <div className="prod-description" >
-                <span> XX59 HEADPHONES </span>
-                <span> Enjoy your audio almost anywhere and customize it to your specific tastes
+                <span style={{'font-size':'28px','letterSpacing':'1px'}}> XX59 HEADPHONES </span>
+                <span style={{'font-size':'15px', 'opacity':'0.5'}}> Enjoy your audio almost anywhere and customize it to your specific tastes
                 with the XX59 headphones. The stylish yet durable versatile wireless headset is a
                 brilliant companion at home or on the move.</span>
                 <button> SEE PRODUCT </button>

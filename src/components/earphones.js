@@ -13,9 +13,9 @@ function Earphones(){
                 <img src={yx1m} alt="product" />
             </picture>
             <div className="prod-description" >
-                <span> NEW PRODUCT </span>
-                <span> YX1 WIRELESS EARPHONES </span>
-                <span> Tailor your listening experience with bespoke dynamic 
+                <span style={{'color':'#D87D4A'}}> NEW PRODUCT </span>
+                <span style={{'font-size':'28px','letterSpacing':'1px'}}> YX1 WIRELESS EARPHONES </span>
+                <span style={{'font-size':'15px', 'opacity':'0.5'}}> Tailor your listening experience with bespoke dynamic 
                     drivers from the new YX1 Wireless Earphones. Enjoy incredible 
                     high-fidelity sound even in noisy environments with its 
                     active noise cancellation feature.</span>

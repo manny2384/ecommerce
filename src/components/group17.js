@@ -4,40 +4,40 @@ import headphones from '../assets/shared/desktop/image-category-thumbnail-headph
 import earphones from '../assets/shared/desktop/image-category-thumbnail-earphones.png';
 import speakers from '../assets/shared/desktop/image-category-thumbnail-speakers.png';
 
-function Group17(){
+function Group17(props){
     return(<div className='featured-products'>
     <div className='item'>
       <span>
         <img src={headphones} alt="headphones" />
       </span>
       <span> Headphones </span>
-      <span>
+      <span onClick={()=>{props.setState("headphones")}}>
         Shop <img src={arrowRight} alt="arrowright" />
       </span>
       <span></span>
     </div>
+
     <div className='item'>
       <span>
         <img src={speakers} alt="speakers" />
       </span>
       <span> Speakers </span>
-      <span>
+      <span onClick={()=>{props.setState("speakers")}}>
         Shop <img src={arrowRight} alt="arrowright" />
       </span>
       <span></span>
     </div>
+
     <div className='item'>
       <span>
         <img src={earphones} alt="earphones" />
       </span>
       <span> Earphones </span>
-      <span>
+      <span onClick={()=>{props.setState("earphones")}}>
         Shop <img src={arrowRight} alt="arrowright" />
       </span>
       <span></span>
     </div>
-
-
 
     </div>);
 }

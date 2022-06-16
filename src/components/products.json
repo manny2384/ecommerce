@@ -1,0 +1,31 @@
+{
+    "headphones":[
+        {
+            "name": "XX99 MARK II HEADPHONES",
+            "description": "",
+            "price": "2,999",
+            "features": "f",
+            "in_the_box": "",
+            "new": false
+        },
+        {
+            "name": "XX99 MARK I HEADPHONES",
+            "description": "",
+            "price": "1,750",
+            "features": "f",
+            "in_the_box": "",
+            "new": false
+        },
+        {
+            "name": "XX59 HEADPHONES",
+            "description": "",
+            "price": "899",
+            "features": "f",
+            "in_the_box": "",
+            "new": false
+        }
+
+    ],
+    "speakers":[],
+    "earphones":[]
+}
