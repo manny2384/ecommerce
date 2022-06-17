@@ -14,7 +14,7 @@ import Group17 from './components/group17';
 import Speakers from './components/speakers';
 import Earphones from './components/earphones';
 import Headphones from './components/headphones';
-
+import Product from './components/product';
 
 
 function App() {
@@ -25,6 +25,11 @@ function App() {
 
   }, [state]);
 
+  const[product, setProduct] = useState('none');
+  useEffect(()=>{
+    console.log("updating product page");
+  }, [product]);
+
   return (
     <div className="App">
     
@@ -34,11 +39,11 @@ function App() {
       
       <div className='placeholder'>
 
-        {state==='home' && <HomeContent />}
-        {state==='earphones' && <Earphones />}
-        {state==='speakers' && <Speakers />}
-        {state==='headphones' && <Headphones />}
-
+        {state==='home' && <HomeContent setState={setState} setProduct={setProduct} />}
+        {state==='earphones' && <Earphones setState={setState} setProduct={setProduct} />}
+        {state==='speakers' && <Speakers setState={setState} setProduct={setProduct} />}
+        {state==='headphones' && <Headphones setState={setState} setProduct={setProduct} />}
+        {state==='product' && <Product setState={setState} setProduct={setProduct} product={product} />}
 
       </div>
 

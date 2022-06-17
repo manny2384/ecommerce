@@ -1,11 +1,16 @@
 {
-    "headphones":[
+    "products":[
         {
             "name": "XX99 MARK II HEADPHONES",
-            "description": "",
+            "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
             "price": "2,999",
-            "features": "f",
-            "in_the_box": "",
+            "features": [
+                "Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.",
+                "The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic."
+            ],
+            "in_the_box": ["Headphone Unit", "Replacement Earcups", "User Manual", "3.5mm 5m Audio Cable", "Travel Bag"],
+            "in_the_box_q": [1, 2, 1, 1, 1],
+            "also":[],
             "new": false
         },
         {
@@ -21,11 +26,41 @@
             "description": "",
             "price": "899",
             "features": "f",
-            "in_the_box": "",
+            "in_the_box": [],
+            "in_the_box_q": [],
+            "also": [],
+            "new": false
+        },
+        {
+            "name": "ZX9 SPEAKER",
+            "description": "",
+            "price": "899",
+            "features": "f",
+            "in_the_box": [],
+            "in_the_box_q": [],
+            "also": [],
+            "new": true
+        },
+        {
+            "name": "ZX7 SPEAKER",
+            "description": "",
+            "price": "899",
+            "features": "f",
+            "in_the_box": [],
+            "in_the_box_q": [],
+            "also": [],
+            "new": false
+        },
+        {
+            "name": "YX1 WIRELESS EARPHONES",
+            "description": "",
+            "price": "899",
+            "features": "f",
+            "in_the_box": [],
+            "in_the_box_q": [],
+            "also": [],
             "new": false
         }
+    ]
 
-    ],
-    "speakers":[],
-    "earphones":[]
 }

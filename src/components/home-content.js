@@ -12,8 +12,10 @@ import speakerzx9m from '../assets/home/mobile/image-speaker-zx9.png';
 // import helper components
 
 
-function HomeContent(){
+function HomeContent(props){
+
     return(<div className="home-content">
+
         <div className='zx9'>
             <picture>
                 <source srcset={speakerzx9} media="(min-width: 1000px)" />
@@ -24,13 +26,15 @@ function HomeContent(){
                 <span className='item-name'> ZX9 SPEAKER </span>
                 <span> Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
                 </span>
-                <button> SEE PRODUCT </button>
+
+                <button onClick={()=>{props.setState("product"); props.setProduct("ZX9 SPEAKER")}}> SEE PRODUCT </button>
             </div>
         </div>
+
         <div className='zx7'> 
             <div>
                 <span className='item-name'> ZX7 SPEAKER </span>
-                <button> SEE PRODUCT </button>
+                <button onClick={()=>{props.setState("product"); props.setProduct("ZX7 SPEAKER")}}> SEE PRODUCT </button>
             </div>
             <picture>
                 <source srcset={speakerzx7} media="(min-width: 1000px)" />
@@ -38,6 +42,7 @@ function HomeContent(){
                 <img src={speakerzx7m} alt="speakerzx7" />
             </picture>
         </div>
+
         <div className='yx1'>
             <div> 
                 <picture>
@@ -48,9 +53,10 @@ function HomeContent(){
             </div>
             <div>
                 <span className='item-name'> YX1 EARPHONES </span>
-                <button> SEE PRODUCT </button>
+                <button onClick={()=>{props.setState("product"); props.setProduct("YX1 EARPHONES")}}> SEE PRODUCT </button>
             </div>
         </div>
+
     </div>)
 }
 

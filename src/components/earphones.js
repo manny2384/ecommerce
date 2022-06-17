@@ -4,7 +4,7 @@ import yx1t from '../assets/product-yx1-earphones/tablet/image-category-page-pre
 import yx1m from '../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg';
 
 
-function Earphones(){
+function Earphones(props){
     return(<div className="earphones">
         <div className="earphones-prod"> 
             <picture>
@@ -19,7 +19,8 @@ function Earphones(){
                     drivers from the new YX1 Wireless Earphones. Enjoy incredible 
                     high-fidelity sound even in noisy environments with its 
                     active noise cancellation feature.</span>
-                <button> SEE PRODUCT </button>
+
+                    <button onClick={()=>{props.setState("product"); props.setProduct("YX1 WIRELESS EARPHONES")}}> SEE PRODUCT </button>
             </div>
         </div>
     </div>)

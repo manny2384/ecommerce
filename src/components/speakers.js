@@ -8,7 +8,7 @@ import zx7t from '../assets/product-zx7-speaker/tablet/image-category-page-previ
 import zx7m from '../assets/product-zx7-speaker/mobile/image-category-page-preview.jpg';
 
 
-function Speakers(){
+function Speakers(props){
     return(<div className="speakers">
         
         <div className="speakers-prod"> 
@@ -24,7 +24,8 @@ function Speakers(){
                     speaker. It’s a bookshelf speaker system that offers truly 
                     wireless connectivity -- creating new possibilities for more
                     pleasing and practical audio setups.</span>
-                <button> SEE PRODUCT </button>
+
+                <button onClick={()=>{props.setState("product"); props.setProduct("ZX9 SPEAKERS")}}> SEE PRODUCT </button>
             </div>
         </div>
 
@@ -40,7 +41,8 @@ function Speakers(){
                     The ZX7 bookshelf speaker uses high-end audiophile components 
                     that represents the top of the line powered speakers for home 
                     or studio use.</span>
-                <button> SEE PRODUCT </button>
+
+                    <button onClick={()=>{props.setState("product"); props.setProduct("ZX7 SPEAKERS")}}> SEE PRODUCT </button>
             </div>
         </div>
 
