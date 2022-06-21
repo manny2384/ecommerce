@@ -42,7 +42,7 @@ function Speakers(props){
                     that represents the top of the line powered speakers for home 
                     or studio use.</span>
 
-                    <button onClick={()=>{props.setState("product"); props.setProduct("ZX7 SPEAKERS")}}> SEE PRODUCT </button>
+                    <button onClick={()=>{props.setState("product"); props.setProduct("ZX7 SPEAKER")}}> SEE PRODUCT </button>
             </div>
         </div>
 

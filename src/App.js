@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
     
-      <Header setState={setState} state={state} />
+      <Header setState={setState} state={state} setProduct={setProduct} />
       
       <Group17 setState={setState} state={state} />
       

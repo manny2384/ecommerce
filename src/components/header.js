@@ -50,13 +50,16 @@ function Header(props){
               <span className='item header-prod-desc'>
                 Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
               </span>
-              <span className='item see-prod-btn'>See product</span>
+              <span className='item see-prod-btn' onClick={()=>{
+                props.setState("product");
+                props.setProduct("XX99 MARK II HEADPHONES");
+              }}>See product</span>
       
             </div>
             
             <picture>
-              <source srcset={hero} media="(min-width: 1000px)" />
-              <source srcset={hero_tablet} media="(min-width: 600px)" />
+              <source srcSet={hero} media="(min-width: 1000px)" />
+              <source srcSet={hero_tablet} media="(min-width: 600px)" />
               <img src={hero_mobile} alt="headphones" />
             </picture>
           </>}

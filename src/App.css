@@ -679,3 +679,31 @@ home content
   }
 }
 
+/**************************************************
+  Specific Product Styling
+**************************************************/
+.main-info-desc{
+  display: flex;
+  flex-direction: column;
+}
+.main-info-desc input::-webkit-inner-spin-button,
+.main-info-desc input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+.main-info-desc input[type=number]{
+  -moz-appearance: textfield;
+}
+.quantity-counter{
+  width: fit-content;
+  background: #F1F1F1;
+  padding: 5px;
+}
+.quantity-counter span{
+  cursor: pointer;
+}
+.quantity-counter input{
+  width: 30px;
+  text-align: center;
+  background-color: inherit;
+  border: none;
+}
