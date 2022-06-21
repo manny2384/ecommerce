@@ -25,7 +25,7 @@ function Speakers(props){
                     wireless connectivity -- creating new possibilities for more
                     pleasing and practical audio setups.</span>
 
-                <button onClick={()=>{props.setState("product"); props.setProduct("ZX9 SPEAKERS")}}> SEE PRODUCT </button>
+                <button onClick={()=>{props.setState("product"); props.setProduct("ZX9 SPEAKER")}}> SEE PRODUCT </button>
             </div>
         </div>
 

@@ -1,8 +1,11 @@
 import React, {useState, useEffect } from 'react';
 import myData from './products.json';
+import IMAGES from './images';
+
 
 function Product(props){
-
+    console.log("***** Show Product info for ", props.product);
+    
     const[quantity, setQuantity] = useState(0);
     useEffect(()=>{
         console.log("aggregating product");
@@ -16,8 +19,11 @@ function Product(props){
 
         <div className='main-info'>
             <picture> 
-                <img src={myData[props.product]['picture_mobile']} alt="productpicture" />
+                <source srcSet={ IMAGES[props.product + " desktop"] } media='(min-width: 1000px)' />
+                <source srcSet={ IMAGES[props.product + " tablet"] } media='(min-width: 700px)' />
+                <img src={ IMAGES[props.product + " mobile"] } alt="productpicture" />
             </picture>
+
             <div className='main-info-desc'>
                 {myData[props.product]['new'] && <span> NEW PRODUCT </span>}
                 <span> {props.product} </span>
