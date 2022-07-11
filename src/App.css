@@ -21,6 +21,9 @@
   color: white;
 }
 
+li{
+  list-style: none;
+}
 /**************************************************
   navigation-bar
 **************************************************/
@@ -682,9 +685,24 @@ home content
 /**************************************************
   Specific Product Styling
 **************************************************/
+.product-element{
+  width: 327px;
+  margin: auto;
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+}
+.main-info img{
+  width: 327px;
+  height: 327px;
+}
 .main-info-desc{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 300px;
+  justify-content: space-between;
 }
 .main-info-desc input::-webkit-inner-spin-button,
 .main-info-desc input::-webkit-outer-spin-button{
@@ -693,17 +711,116 @@ home content
 .main-info-desc input[type=number]{
   -moz-appearance: textfield;
 }
+.counter{
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  height: 48px;
+}
 .quantity-counter{
   width: fit-content;
   background: #F1F1F1;
   padding: 5px;
+  width: 110px;
+  display: flex;
+  justify-content: space-around;
 }
 .quantity-counter span{
   cursor: pointer;
+  display: grid;
+  align-items: center;
 }
 .quantity-counter input{
   width: 30px;
   text-align: center;
   background-color: inherit;
   border: none;
+}
+.counter button{
+  width: 160px;
+  height: 48px;
+  border: none;
+  background: #D87D4A;
+  color: white;
+}
+.features{
+  padding: 50px 0;
+}
+.features div{
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.857143px;
+}
+.features, .features ul{
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.features ul{
+  opacity: 0.5;
+  font-weight: 500;
+}
+.features ul li{
+  margin-top: 20px;
+}
+.in-the-box{
+  height: 217px;
+}
+.in-the-box ul{
+  height: 157px;
+  font-size: 15px;
+}
+.in-the-box, .in-the-box ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.in-the-box ul li span:nth-child(1){
+  color: #D87D4A;
+  font-weight: 700;
+}
+.in-the-box ul li span:nth-child(2){
+  opacity: 0.5;
+}
+.product-gallery{
+  margin-top: 80px;
+  height: 756px;
+}
+.product-gallery picture img{
+  width: 100%;
+}
+@media(min-width: 700px){
+  .product-element{
+    width: 690px;
+  }
+  .main-info{
+    flex-direction: row;
+    
+  }
+  .main-info img{
+    width: 281px;
+    height: 480px;
+  }
+  .main-info-desc{
+    width: 340px;
+    height: 390px;
+  }
+}
+@media(min-width: 1120px){
+  .product-element{
+    width: 1110px;
+  }
+  .main-info{
+ 
+  }
+  .main-info img{
+    width: 540px;
+    height: 560px;
+  }
+  .main-info-desc{
+    width: 445px;
+    height: 407px;
+  }
 }
