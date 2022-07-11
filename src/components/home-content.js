@@ -53,7 +53,7 @@ function HomeContent(props){
             </div>
             <div>
                 <span className='item-name'> YX1 EARPHONES </span>
-                <button onClick={()=>{props.setState("product"); props.setProduct("YX1 EARPHONES")}}> SEE PRODUCT </button>
+                <button onClick={()=>{props.setState("product"); props.setProduct("YX1 WIRELESS EARPHONES")}}> SEE PRODUCT </button>
             </div>
         </div>
 

@@ -50,7 +50,7 @@ function Product(props){
 
         </div>
 
-        <div>
+        <div className='features-box'>
 
             <div className='features'>
                 <div> FEATURES </div>
@@ -81,7 +81,7 @@ function Product(props){
                     <img src={IMAGES[props.product + " 1 mobile"]} alt="image_gallery_1"/>
                 </picture>
                 <picture> 
-                <source srcSet={IMAGES[props.product + " 2 desktop"]} media="(min-width: 1000px)"/>
+                    <source srcSet={IMAGES[props.product + " 2 desktop"]} media="(min-width: 1000px)"/>
                     <source srcSet={IMAGES[props.product + " 2 tablet"]} media="(min-width: 700px)"/>
                     <img src={IMAGES[props.product + " 2 mobile"]} alt="image_gallery_2"/>
                 </picture>
@@ -105,7 +105,7 @@ function Product(props){
                 <div> </div>
                 <div> </div>
             </div>
-            
+
         </div>
 
     </div>);
