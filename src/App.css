@@ -13,6 +13,7 @@
   height: 100%;
   width: 100%;
   font-family: 'Monrope';
+  scroll-behavior: smooth;
 }
 
 .header-bar{
@@ -24,6 +25,16 @@
 li{
   list-style: none;
 }
+
+button{
+  width: 160px;
+  height: 48px;
+  background: #D87D4A;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 /**************************************************
   navigation-bar
 **************************************************/
@@ -291,8 +302,10 @@ li{
 .placeholder{
   margin-top: 120px;
   width: 100%;
-
+  -webkit-transition: height 1s linear;
+  transition: height 1s linear;
 }
+
 
 /**************************************************
 home content
@@ -791,6 +804,32 @@ home content
 .product-gallery picture img{
   width: 100%;
 }
+.promotion-gallery, .promotion-gallery ul, .promotion-gallery ul li{
+  display: flex;
+  flex-direction: column;
+}
+.promotion-gallery{
+  width: 327px;
+  margin: auto;
+  align-items: center;
+}
+.promotion-gallery div:nth-child(2){
+  width: 100%;
+}
+
+.promotion-gallery ul{
+  height: 900px;
+  justify-content: space-between;
+}
+.promotion-gallery ul li img{
+  width: 100%;
+}
+.promotion-gallery ul li{
+  align-items: center;
+  justify-content: space-between;
+  height: 265px;
+}
+
 @media(min-width: 700px){
   .product-element{
     width: 690px;
@@ -828,6 +867,21 @@ home content
   .product-gallery div:nth-child(2) picture img{
     height: 368px;
     width: 395px;
+  }
+  .promotion-gallery{
+    width: 690px;
+    align-items: stretch;
+  }
+  .promotion-gallery ul{
+    width: 100%;
+    height: 563px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .promotion-gallery ul li{
+    width: 223px;
+    height: 471px;
+
   }
 }
 @media(min-width: 1120px){
@@ -870,5 +924,12 @@ home content
   .product-gallery div:nth-child(2) picture img{
     width: 635px;
     height: 592px;
+  }
+  .promotion-gallery{
+    width: 1110px;
+  }
+  .promotion-gallery ul li{
+    width: 350px;
+    height: 471px;
   }
 }

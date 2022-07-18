@@ -84,6 +84,27 @@ const Images = {
     "YX1 WIRELESS EARPHONES 3 desktop": require("../assets/product-yx1-earphones/desktop/image-gallery-3.jpg"),
     "YX1 WIRELESS EARPHONES 3 tablet": require("../assets/product-yx1-earphones/tablet/image-gallery-3.jpg"),
     "YX1 WIRELESS EARPHONES 3 mobile": require("../assets/product-yx1-earphones/mobile/image-gallery-3.jpg"),
+
+
+    // Promotion gallery images: (mobile, tablet, desktop) order
+    "ZX7 SPEAKER promo 1": require("../assets/shared/mobile/image-zx7-speaker.jpg"),
+    "ZX9 SPEAKER promo 1": require("../assets/shared/mobile/image-zx9-speaker.jpg"),
+    "XX59 HEADPHONES promo 1": require("../assets/shared/mobile/image-xx59-headphones.jpg"),
+    "XX99 MARK I HEADPHONES promo 1": require("../assets/shared/mobile/image-xx99-mark-one-headphones.jpg"),
+    "XX99 MARK II HEADPHONES promo 1": require("../assets/shared/mobile/image-xx99-mark-two-headphones.jpg"),
+
+    "ZX7 SPEAKER promo 2": require("../assets/shared/tablet/image-zx7-speaker.jpg"),
+    "ZX9 SPEAKER promo 2": require("../assets/shared/tablet/image-zx9-speaker.jpg"),
+    "XX59 HEADPHONES promo 2": require("../assets/shared/tablet/image-xx59-headphones.jpg"),
+    "XX99 MARK I HEADPHONES promo 2": require("../assets/shared/tablet/image-xx99-mark-one-headphones.jpg"),
+    "XX99 MARK II HEADPHONES promo 2": require("../assets/shared/tablet/image-xx99-mark-two-headphones.jpg"),
+
+    "ZX7 SPEAKER promo 3": require("../assets/shared/desktop/image-zx7-speaker.jpg"),
+    "ZX9 SPEAKER promo 3": require("../assets/shared/desktop/image-zx9-speaker.jpg"),
+    "XX59 HEADPHONES promo 3": require("../assets/shared/desktop/image-xx59-headphones.jpg"),
+    "XX99 MARK I HEADPHONES promo 3": require("../assets/shared/desktop/image-xx99-mark-one-headphones.jpg"),
+    "XX99 MARK II HEADPHONES promo 3": require("../assets/shared/desktop/image-xx99-mark-two-headphones.jpg")
+
 }
 
 export default Images;
