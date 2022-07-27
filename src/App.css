@@ -30,7 +30,7 @@ button{
   width: 160px;
   height: 48px;
   background: #D87D4A;
-  color: white;
+  
   border: none;
   cursor: pointer;
 }
@@ -810,6 +810,7 @@ home content
 }
 .promotion-gallery{
   width: 327px;
+  padding-top: 50px;
   margin: auto;
   align-items: center;
 }
@@ -932,4 +933,29 @@ home content
     width: 350px;
     height: 471px;
   }
+}
+
+/**************************************************
+
+    Cart Styling
+
+**************************************************/
+.outer-cart{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: calc(100% - 100px);
+  background-color: rgb(150, 137, 137, 0.7);
+  z-index: 2;
+  display: none;
+}
+.outer-cart.active{
+  display: grid;
+}
+.cart{
+  width: 327px;
+  height: 488px;
+  top: 20px;
+  margin: 20px auto 0;
+  background: white;
 }

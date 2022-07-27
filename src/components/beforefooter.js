@@ -7,8 +7,8 @@ function Beforefooter(props){
     return(<div className="before-footer">
         <div>
             <picture>
-                <source srcset={best_gear} media='(min-width: 1110px)' />
-                <source srcset={best_gear_t} media='(min-width: 768px)' />
+                <source srcSet={best_gear} media='(min-width: 1110px)' />
+                <source srcSet={best_gear_t} media='(min-width: 768px)' />
                 <img src={best_gear_m} alt="best gear pic" />
             </picture>
         </div>

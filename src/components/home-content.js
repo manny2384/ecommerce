@@ -18,8 +18,8 @@ function HomeContent(props){
 
         <div className='zx9'>
             <picture>
-                <source srcset={speakerzx9} media="(min-width: 1000px)" />
-                <source srcset={speakerzx9t} media="(min-width: 768px)" />
+                <source srcSet={speakerzx9} media="(min-width: 1000px)" />
+                <source srcSet={speakerzx9t} media="(min-width: 768px)" />
                 <img src={speakerzx9m} alt="speakerzx9" />    
             </picture>    
             <div>
@@ -37,8 +37,8 @@ function HomeContent(props){
                 <button onClick={()=>{props.setState("product"); props.setProduct("ZX7 SPEAKER")}}> SEE PRODUCT </button>
             </div>
             <picture>
-                <source srcset={speakerzx7} media="(min-width: 1000px)" />
-                <source srcset={speakerzx7t} media="(min-width: 768px)" />
+                <source srcSet={speakerzx7} media="(min-width: 1000px)" />
+                <source srcSet={speakerzx7t} media="(min-width: 768px)" />
                 <img src={speakerzx7m} alt="speakerzx7" />
             </picture>
         </div>
@@ -46,8 +46,8 @@ function HomeContent(props){
         <div className='yx1'>
             <div> 
                 <picture>
-                    <source srcset={earphones} media="(min-width: 1000px)" />
-                    <source srcset={earphonest} media="(min-width: 768px)" />
+                    <source srcSet={earphones} media="(min-width: 1000px)" />
+                    <source srcSet={earphonest} media="(min-width: 768px)" />
                     <img src={earphonesm} alt="earphones" />
                 </picture>
             </div>

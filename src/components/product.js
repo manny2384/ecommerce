@@ -61,7 +61,14 @@ function Product(props){
                         <input type="number" name="quantity" value={quantity} />
                         <span onClick={()=>{setQuantity(quantity + 1)}}> + </span>
                     </div>
-                    <button> ADD TO CART </button>
+                    <button onClick={()=>{
+                        if(quantity < 1){
+                            console.log("need to add a quantity");
+                        }
+                        else{
+                            console.log("add product to cart")
+                        }
+                    }}> ADD TO CART </button>
                 </span>
 
             </div>
@@ -117,7 +124,7 @@ function Product(props){
 
         <div className='promotion-gallery'>
 
-            <div> YOU MAY ALSO LIKE </div>
+            <div style={{'padding':'0 0 30px 0'}}> YOU MAY ALSO LIKE </div>
             <div>
                 <ul>
                     {

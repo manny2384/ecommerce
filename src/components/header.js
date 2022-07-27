@@ -35,7 +35,9 @@ function Header(props){
             <li className='nav-item' onClick={()=>props.setState('earphones')}> EARPHONES </li>
           </ul>
           
-          <div className='cart-icon'>
+          <div className='cart-icon' onClick={()=>{
+            document.querySelector(".outer-cart").classList.toggle("active");
+          }}>
             <img src={cart} alt="cart-icon" />
           </div>
         </nav>
